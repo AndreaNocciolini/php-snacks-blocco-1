@@ -43,9 +43,14 @@ $posts = [
     ],
 ];
 
-// foreach ($posts as $post) {
-//     var_dump($post);
-// }
+foreach ($posts as $key => $post) {
+    echo '<h1 class="violet">' . $key . '</h1>';
+    foreach ($post as $content) {
+        echo '<p><span class="red">Title</span> : ' . $content['title'] . '</p>';
+        echo '<p><span class="green">Author</span> :' . $content['author'] . '</p>';
+        echo '<p><span class="blue">Text</span> : ' . $content['text'] . '</p>';
+    }
+}
 
 ?>
 
@@ -55,11 +60,11 @@ $posts = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Document</title>
 </head>
 <body>
-    <p>
-        <?php print_r($posts) ?>
-    <p>
+   
 </body>
 </html>
