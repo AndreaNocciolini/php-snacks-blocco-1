@@ -13,3 +13,15 @@
 .violet {
     color: blueviolet;
 }
+
+.teachers-container {
+    width: 18em;
+    height: 4em;
+    background-color: grey;
+}
+
+.pm-container {
+    width: 18em;
+    height: 4em;
+    background-color: green;
+}
