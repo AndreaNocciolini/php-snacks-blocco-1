@@ -20,6 +20,7 @@ Poi con una select filtriamo i nostri prodotti per prezzo o per tipologia -->
 </head>
 
 <body>
+    <?php include_once __DIR__ . '/server/controller-api.php' ?>
     <?php include_once __DIR__ . '/server/db.php' ?>
 
     <!-- header -->
@@ -30,7 +31,6 @@ Poi con una select filtriamo i nostri prodotti per prezzo o per tipologia -->
 
     <!-- footer -->
     <?php include_once __DIR__ . '/partials/footer.php' ?>
-    <script src="/js/script.js"></script>
 </body>
 
 </html>

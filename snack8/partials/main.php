@@ -1,5 +1,5 @@
 <main>
-    <?php foreach ($products as $product) { ?>
+    <?php foreach ($productsFiltered as $product) { ?>
         <div class="products-divider">
             <div class="product-container">
                 <h2 class="red">Product</h2>
