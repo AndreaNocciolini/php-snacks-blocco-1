@@ -9,7 +9,7 @@ if (isset($_GET['type']) !== false) {
     } else {
         $productsFiltered = [];
         foreach ($products as $product) {
-            if ($product['type'] === $type) {
+            if (($product['type'] === $type) || ($product['price'] <= $type)) {
                 $productsFiltered[] = $product;
             }
         }
