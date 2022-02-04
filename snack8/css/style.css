@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: #161616;
+}
+
 .red {
     color: red;
 }
@@ -26,7 +30,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #181818;
+    background-color: #494949;
 }
 
 .select-container {
